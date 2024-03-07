@@ -21,7 +21,7 @@ The Deluxe Hotel website is designed to showcase the hotel's offerings, services
 - Gallery and room sections adapt to different screen sizes.
 
 ## Live Demo 🌐
-Live Demo: [Deluxe Hotel Demo]()
+Live Demo: [Deluxe Hotel Demo](https://hotel-site-sigma.vercel.app/)
 
 ## Installation
 No special installation is required for this project. Simply open the `index.html` file in a web browser.
