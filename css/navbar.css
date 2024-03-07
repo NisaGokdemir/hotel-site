@@ -1,0 +1,36 @@
+/* Navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: var(--dark);
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.navbar__logo{
+    margin-left: 1rem;
+    font-size: 3rem;
+}
+.navbar__links{
+    display: flex;
+    margin-right: 3rem;
+}
+.navbar__links .link a{
+    padding: 1rem 2rem;
+    margin:0 .3rem;
+    color: rgb(255, 255, 255);
+}
+.navbar__links .link a:hover{
+    border-bottom: .2rem solid var(--warning);
+}
+@media screen and (max-width: 768px){
+    .navbar{
+        flex-direction: column;
+        height: 12vh;
+        padding: 2rem;
+    }
+}

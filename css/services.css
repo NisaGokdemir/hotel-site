@@ -1,0 +1,42 @@
+/* Services */
+
+.services{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.service{
+    text-align: center;
+    flex:25%;
+}
+
+.service i{
+    background-color:var(--primary);
+    padding: 1.5rem;
+    border-radius: 50%;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.service p{
+    font-size: 1.6rem;
+}
+
+.service-title{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .service{
+        flex:50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .service{
+        flex:100%;
+    }
+}
+

@@ -1,0 +1,41 @@
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.member{
+    flex:33%;
+    padding: 2rem;
+}
+.member-img img{
+    border-radius: 50%;
+}
+.member-img img:hover{
+    opacity: 0.8;
+}
+.member-title{
+    text-align: center;
+    font-size: 2.4rem;
+}
+.member-description{
+    text-align: center;
+    font-size: 1.6rem;
+}
+.teams-title{
+    text-align: center;
+    font-size: 3.8rem;
+}
+.teams p{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+.teams {
+    background-color: var(--light);
+    padding: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .member{
+        flex:100%;
+    }
+}
